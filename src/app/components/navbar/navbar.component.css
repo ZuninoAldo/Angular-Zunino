@@ -1,0 +1,32 @@
+.navbar-container{
+    margin: 15px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar-container h1{
+    text-decoration: underline;
+    font-weight: lighter;
+    color: silver;
+}
+
+.navbar-container a{
+    text-decoration: none;
+    color: silver;
+    transition: all 1s;
+}
+
+.navbar-container a:hover{
+    color: white;
+}
+
+.navbar-container ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-container ul li{
+    margin: 0 10px;
+}

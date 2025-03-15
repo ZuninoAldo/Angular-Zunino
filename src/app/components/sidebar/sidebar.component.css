@@ -1,0 +1,26 @@
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+}
+
+.sidebar-container h2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: silver;
+}
+
+.sidebarList{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sidebarList li{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
