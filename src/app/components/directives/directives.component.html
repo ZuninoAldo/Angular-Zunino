@@ -1,0 +1,10 @@
+<h2>Listado de alumnos</h2>
+<ul class="listStudents">
+    @for (students of pupil; track students.name){
+        <li [class.inscripto]="students.inscription">Nombre: {{ students.name }}</li>
+        <li [class.inscripto]="students.inscription">Apellido: {{ students.surname }}</li>
+        <li [class.inscripto]="students.inscription">Edad: {{ students.age }}</li>
+        } @empty {
+        <h4>No hay alumnos</h4>
+    }
+</ul>

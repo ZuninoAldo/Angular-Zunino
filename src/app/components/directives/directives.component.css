@@ -1,0 +1,22 @@
+li.inscripto {
+    color: darkgreen;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: silver;
+    margin-top: 80px;
+}
+
+.listStudents {
+    list-style-type: none;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+}
+
+.listStudents li {
+    font-size: 20px;
+    margin: 12px;
+}
