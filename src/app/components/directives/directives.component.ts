@@ -3,9 +3,9 @@ import { students } from './interfaces/students';
 
 @Component({
   selector: 'app-directives',
-  imports: [],
   templateUrl: './directives.component.html',
-  styleUrl: './directives.component.css'
+  styleUrl: './directives.component.css',
+  standalone: false,
 })
 export class DirectivesComponent {
 
