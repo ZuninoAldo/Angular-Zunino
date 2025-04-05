@@ -1,29 +1,39 @@
-.container{
+:host {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
     background-color: grey;
     display: grid;
     grid-template-rows: auto 1fr;
     grid-template-columns: 20vh 1fr;
-    grid-template-areas: 
-    "navbar navbar"
-    "sidebar maincontent"
-    "sidebar maincontent"
-    "sidebar directives";
-    height: 100vh;
-    width: 100%;
+    grid-template-areas:
+        "navbar navbar"
+        "sidebar maincontent"
+        "sidebar maincontent"
+        "sidebar directives"
+        "sidebar directives"
+        "sidebar formulario-alumnos";
 }
 
-.navbar{
+.navbar {
     grid-area: navbar;
 }
 
-.sidebar{
+.sidebar {
     grid-area: sidebar;
 }
 
-.maincontent{
+.maincontent {
     grid-area: maincontent;
 }
 
-.directives{
+.directives {
     grid-area: directives;
+}
+
+.formulario-alumnos {
+    grid-area: formulario-alumnos;
 }
